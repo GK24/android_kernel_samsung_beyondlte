@@ -21,7 +21,7 @@
 }; /* end of root */
 
 &chosen {
-	bootargs_ext = "skip_initramfs rootwait ro init=/init";
+	bootargs_ext = "loop.max_part=7 skip_initramfs rootwait ro init=/init";
 };
 
 /*
